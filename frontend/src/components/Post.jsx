@@ -6,7 +6,7 @@ import { FaPlus } from 'react-icons/fa';
 
 // Function to handle the API call
 const postAd = async (adData) => {
-    const response = await fetch('http://localhost:3005/api/products', {
+    const response = await fetch('http://localhost:3005/api/v1', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

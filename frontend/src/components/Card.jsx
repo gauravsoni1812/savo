@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React from 'react';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
@@ -19,8 +21,8 @@ const Card = ({ product }) => {
                 alt="Product"
             />
             <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">{product.adname}</div>
-                <p className="text-gray-700 text-base">{product.category}</p>
+                <div className="font-bold text-xl mb-2">{product.adname} {product.category}</div>
+                <p className="text-gray-700 text-base">New york ,NY ,USA</p>
                 <div className="font-bold text-xl mb-2">${product.price}</div>
             </div>
             <div className="px-6 pt-4 pb-2 flex justify-between items-center">

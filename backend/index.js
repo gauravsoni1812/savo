@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 connectDB();
 
 // Routes
-app.use('/api/products', productRoutes);
+app.use('/api/v1', productRoutes);
 
 // Start Server
 const PORT = process.env.PORT || 5000;
