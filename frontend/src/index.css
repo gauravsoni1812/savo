@@ -1,0 +1,15 @@
+ 
+body {
+  /* font-family: 'Inter' , sans-serif */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F2F4F8;
+}
+/* input{
+  margin: 10px
+} */
+ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
